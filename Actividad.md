@@ -1,13 +1,9 @@
 # Mini-Proyecto 1: Sistema de Gestión de Tareas Académicas
 
 ## Objetivo
-Desarrollar una propuesta básica para organizar tareas académicas, permitiendo:
-- Registrar actividades  
-- Asignar prioridades  
-- Visualizar el progreso  
-
+ Desarrollar una propuesta básica para organizar tareas académicas, permitiendo registrar actividades, asignar prioridades y visualizar progreso.
+ 
 ---
-
 ## Definición del Problema
 Muchos estudiantes tienen dificultades para organizar sus tareas académicas, lo que provoca:
 - Entregas tardías  
@@ -28,9 +24,9 @@ Este sistema busca centralizar y organizar las tareas para mejorar la productivi
 ---
 
 ## Roles del Sistema
-- **Administrador:** Gestiona usuarios y supervisa el sistema  
-- **Usuario (Estudiante):** Crea y gestiona sus tareas  
-- **Colaborador:** Apoya en tareas compartidas  
+- **Notetaker:** Diego Gómez
+- **Moderador:**  Luis Contreras
+- **Timekeeper:**  Diego Loch
 
 ---
 
@@ -41,44 +37,41 @@ Este sistema busca centralizar y organizar las tareas para mejorar la productivi
 4. Se da seguimiento al progreso  
 5. Se marca como completada  
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Simulación de Trabajo Remoto
+# Simulación de Trabajo Remoto
 
 ### Registro de Comunicación
-(Ejemplos de mensajes con netiqueta)
-
-- Hola equipo, propongo que iniciemos definiendo las funcionalidades principales.  
-- ¿Quién puede encargarse de documentar el flujo de uso?  
-- Confirmo que ya creé las tareas en el tablero.  
+- Diego Gómez [Notetaker]: Hola equipo, espero estén pasando una buena tarde. Les hablaba por este medio por un problema que encontré en la aplicación sobre el tiempo que le muestra al usuario. Ya le subí un PR donde especifico los detalles para arreglar el problema.
+- 
 
 ---
 
 ### Lista de Tareas
-- [x] Definir problema  
-- [x] Establecer funcionalidades  
-- [x] Definir roles  
-- [x] Describir flujo  
-- [x] Consolidar documento  
+- [x] Arreglar el problema mencionado por el compañero 
+- [x] Encontrar posibles errores que puedan ocurrir en el futuro
+- [x] Definir el tiempo en el que se trabajará el problema
+- [x] Designarle una tarea a cada integrante
+- [x] Documentar la causa del error
 
 ---
 
 ### Problema Simulado
-Un integrante del equipo perdió conexión durante la actividad.
+La computadora del Timekeeper se reinició por un pantallazo negro.
 
 ---
 
 ### Solución (Fallback)
 - Se redistribuyeron las tareas pendientes entre los miembros activos  
 - Se documentaron avances para mantener continuidad  
-- Se dejó registro claro para que el integrante pueda reincorporarse  
+- Se dejó registro claro de la conversación para que el integrante pueda reincorporarse
 
 ---
 
 ##  Herramientas Utilizadas
-- Chat (comunicación)  
-- Issues (gestión de tareas)  
-- Documento compartido (documentación)  
+- Google Meet
+- Documento de Google Docs donde trabajan los integrantes
+- Plataforma de respaldo (Chat de grupo de WhatsApp)
 
 ---
 
@@ -86,3 +79,21 @@ Un integrante del equipo perdió conexión durante la actividad.
 - La organización del equipo es clave en entornos remotos  
 - La comunicación clara evita errores  
 - Tener un plan ante problemas mejora la eficiencia del equipo  
+  
+## [PR-01] Definición del problema y funcionalidades
+
+ Descripción:
+ Problema en el manejo del cálculo de tiempos
+
+ Cambios:
+ - Cuando debe aparecer la alerta para que el usuario entregue la tarea.
+ - Identificar cuando un usuario cambie de zona horaria.
+
+ Justificación:
+ Esto va a permitir el correcto funcionamiento del sistema y que no afecte al usuario
+
+ Solicita revisión a:
+ Moderador
+
+ Estado:
+ Listo para revisión
