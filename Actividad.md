@@ -54,17 +54,14 @@ Los estudiantes presentan dificultades para gestionar sus tareas académicas, lo
 
 ---
 
-## 🔄 Flujo del Sistema
-
-mermaid
+```mermaid
 flowchart TD
 A[Inicio] --> B[Crear tarea]
 B --> C[Asignar prioridad]
 C --> D[Guardar tarea]
 D --> E[Ver lista]
 E --> F[Completar tarea]
-F --> G[Fin]
-
+F --> G[Fin] 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Simulación de Trabajo Remoto
