@@ -1,4 +1,4 @@
-# 📚 Mini-Proyecto 1: Sistema de Gestión de Tareas Académicas
+# Mini-Proyecto 1: Sistema de Gestión de Tareas Académicas
 
 ![Estado](https://img.shields.io/badge/Estado-Completado-brightgreen)
 ![Trabajo](https://img.shields.io/badge/Tipo-Colaborativo-blue)
