@@ -26,7 +26,7 @@ Este sistema busca centralizar y organizar las tareas para mejorar la productivi
 ## Roles del Sistema
 - **Notetaker:** Diego Gómez
 - **Moderador:**  Luis Contreras
-- **Timekeeper:**  Diego Loch
+- **Timekeeper:** Alexander Loch
 
 ---
 
@@ -44,8 +44,11 @@ Este sistema busca centralizar y organizar las tareas para mejorar la productivi
 ### Registro de Comunicación
 - Diego Gómez [Notetaker]: Hola equipo, espero estén pasando una buena tarde. Les hablaba por este medio por un problema que encontré en la aplicación sobre el tiempo que le muestra al usuario. Ya le subí un PR donde especifico los detalles para arreglar el problema.
   
-- Diego Loch [Timekeeper]: Buenas noches a todos, gracias por notificar el problema de la aplicación, por ahora revisando la agenda de algunos compañeros estan ocupados, por lo tanto dejare a Luis para que se pueda encargar de verificar el problema presentado, te pediria que hicieras otras pruebas de la aplicación para estar atentos a cualquier problema
--
+- Alexander Loch [Timekeeper]: Buenas noches a todos, gracias por notificar el problema de la aplicación, por ahora revisando la agenda de algunos compañeros estan ocupados, por lo tanto dejare a Luis para que se pueda encargar de verificar el problema presentado, te pido que hicieras otras pruebas de la aplicación para ver si existe algun otro problema que pueda presentar
+  
+- luis
+
+- Diego Loch [Timekeeper]: Esta bien luis entendemos tu situación entonces por ahora Diego se encargara de resolver el problema, cuando ya me desocupe con algunos pendientes de producción entonces auxiliare a Diego lo más rapido posible.
 ---
 
 ### Lista de Tareas
