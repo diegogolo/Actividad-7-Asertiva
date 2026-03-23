@@ -65,65 +65,117 @@ F --> G(Fin)
 ```
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Simulación de Trabajo Remoto
-
-### Registro de Comunicación
-- Diego Gómez [Notetaker]: Hola equipo, espero estén pasando una buena tarde. Les hablaba por este medio por un problema que encontré en la aplicación sobre el tiempo que le muestra al usuario. Ya le subí un PR donde especifico los detalles para arreglar el problema.
-  
-- Alexander Loch [Timekeeper]: Buenas noches a todos, gracias por notificar el problema de la aplicación, por ahora revisando la agenda de algunos compañeros estan ocupados, por lo tanto dejare a Luis para que se pueda encargar de verificar el problema presentado, te pido que hicieras otras pruebas de la aplicación para ver si existe algun otro problema que pueda presentar
-  
-- luis
-
-- Diego Loch [Timekeeper]: Esta bien luis entendemos tu situación entonces por ahora Diego se encargara de resolver el problema, cuando ya me desocupe con algunos pendientes de producción entonces auxiliare a Diego lo más rapido posible.
----
-
-### Lista de Tareas
-- [x] Arreglar el problema mencionado por el compañero 
-- [x] Encontrar posibles errores que puedan ocurrir en el futuro
-- [x] Definir el tiempo en el que se trabajará el problema
-- [x] Designarle una tarea a cada integrante
-- [x] Documentar la causa del error
+## Simulación de Trabajo Remoto (Issues & PRs)
 
 ---
 
-### Problema Simulado
-La computadora del Timekeeper se reinició por un pantallazo negro.
+### Issue #12 - Error en visualización del tiempo
+
+**Estado:** Abierto  
+**Prioridad:** Alta  
+**Asignado a:** Diego Gómez  
+
+**Descripción:**  
+Se detectó un error en la aplicación donde el tiempo mostrado al usuario no coincide con el valor esperado. El problema ocurre bajo ciertas condiciones específicas aún en análisis.
+
+**Pasos para reproducir:**
+1. Ingresar a la aplicación  
+2. Ejecutar funcionalidad de cálculo de tiempo  
+3. Observar el valor mostrado  
+
+**Resultado esperado:**  
+El tiempo debe reflejar correctamente el cálculo real.
+
+**Resultado actual:**  
+El tiempo mostrado es incorrecto.
 
 ---
 
-### Solución (Fallback)
-- Se redistribuyeron las tareas pendientes entre los miembros activos  
-- Se documentaron avances para mantener continuidad  
-- Se dejó registro claro de la conversación para que el integrante pueda reincorporarse
+### Comentarios del Issue
+
+**Diego Gómez (Notetaker):**  
+He identificado el bug y ya se encuentra documentado. Procedo a trabajar en una solución y generar un PR.
 
 ---
 
-##  Herramientas Utilizadas
-- Google Meet
-- Documento de Google Docs donde trabajan los integrantes
-- Plataforma de respaldo (Chat de grupo de WhatsApp)
+**Alexander Loch (Timekeeper):**  
+Gracias por el reporte. Debido a la carga actual, sugiero priorizar este issue. Luis, ¿puedes encargarte de la revisión del PR cuando esté disponible?
 
 ---
 
-## Conclusiones
-- La organización del equipo es clave en entornos remotos  
-- La comunicación clara evita errores  
-- Tener un plan ante problemas mejora la eficiencia del equipo  
-  
-## [PR-01] Definición del problema y funcionalidades
+**Luis Contreras (Moderador):**  
+Confirmado. Me encargaré de la revisión del PR y validar la solución propuesta.
 
- Descripción:
- Problema en el manejo del cálculo de tiempos
+---
 
- Cambios:
- - Cuando debe aparecer la alerta para que el usuario entregue la tarea.
- - Identificar cuando un usuario cambie de zona horaria.
+### Pull Request #27 - Fix: Corrección en cálculo de tiempo
 
- Justificación:
- Esto va a permitir el correcto funcionamiento del sistema y que no afecte al usuario
+**Estado:** En revisión  
+**Autor:** Diego Gómez  
+**Revisor:** Luis Contreras  
 
- Solicita revisión a:
- Moderador
+**Descripción:**  
+Se corrige el cálculo del tiempo mostrado al usuario, ajustando la lógica que generaba inconsistencias.
 
- Estado:
- Listo para revisión
+**Cambios realizados:**
+- Corrección en la fórmula de cálculo  
+- Validación de datos de entrada  
+- Mejora en manejo de errores  
+
+---
+
+### Comentarios del PR
+
+**Luis Contreras (Moderador):**  
+Revisión inicial completada. La lógica es correcta, pero sugiero optimizar la validación de entradas para evitar posibles errores futuros.
+
+---
+
+**Diego Gómez (Notetaker):**  
+Cambios aplicados según sugerencias. Se actualiza el PR para nueva revisión.
+
+---
+
+**Alexander Loch (Timekeeper):**  
+Equipo, recordatorio de tiempos:
+- 10 min revisión  
+- 10 min pruebas  
+- 5 min cierre  
+
+Mantengamos el flujo activo.
+
+---
+
+### Issue #13 - Evento: Pérdida de conexión
+
+**Estado:** Resuelto  
+**Prioridad:** Media  
+**Asignado a:** Equipo  
+
+**Descripción:**  
+Durante la revisión del PR, el moderador (Luis) pierde conexión.
+
+---
+
+### Acciones tomadas
+
+- El Timekeeper reasigna temporalmente la revisión  
+- El Notetaker continúa documentando avances  
+- Se mantiene la continuidad del trabajo  
+
+---
+
+### Resultado
+
+El equipo logró continuar sin interrupciones, aplicando correctamente estrategias de trabajo colaborativo en entornos remotos.
+
+---
+
+### Conclusión
+
+- Se utilizó correctamente el flujo de Issues y PRs  
+- Se mantuvo comunicación profesional  
+- Se respetaron roles y tiempos  
+- Se resolvió el problema de forma eficiente  
+
+---
