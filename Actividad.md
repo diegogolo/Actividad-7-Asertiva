@@ -1,41 +1,69 @@
-# Mini-Proyecto 1: Sistema de Gestión de Tareas Académicas
+# 📚 Mini-Proyecto 1: Sistema de Gestión de Tareas Académicas
 
-## Objetivo
- Desarrollar una propuesta básica para organizar tareas académicas, permitiendo registrar actividades, asignar prioridades y visualizar progreso.
- 
----
-## Definición del Problema
-Muchos estudiantes tienen dificultades para organizar sus tareas académicas, lo que provoca:
-- Entregas tardías  
-- Falta de seguimiento  
-- Mala gestión del tiempo  
-
-Este sistema busca centralizar y organizar las tareas para mejorar la productividad.
+![Estado](https://img.shields.io/badge/Estado-Completado-brightgreen)
+![Trabajo](https://img.shields.io/badge/Tipo-Colaborativo-blue)
+![Modalidad](https://img.shields.io/badge/Modalidad-Remota-orange)
 
 ---
 
-## Funcionalidades Principales
-1. Crear, editar y eliminar tareas  
-2. Asignar prioridad (alta, media, baja)  
-3. Visualizar el estado de tareas (pendiente, en progreso, completada)  
-4. Asignar tareas a usuarios  
-5. Ver progreso general del trabajo  
+## 👥 Integrantes y Roles
+
+| Rol            | Nombre              | Responsabilidad |
+|----------------|-------------------|----------------|
+| 📝 Notetaker   | Diego Gómez        | Registro de información y conclusiones |
+| 🎯 Moderador   | Luis Contreras     | Coordinación del equipo |
+| ⏱️ Timekeeper  | Alexander Loch     | Control del tiempo |
 
 ---
 
-## Roles del Sistema
-- **Notetaker:** Diego Gómez
-- **Moderador:**  Luis Contreras
-- **Timekeeper:** Alexander Loch
+## 🎯 Objetivo
+
+Desarrollar una propuesta básica para organizar tareas académicas, permitiendo registrar actividades, asignar prioridades y visualizar el progreso.
 
 ---
 
-## Flujo de Uso
-1. El usuario crea una tarea  
-2. Asigna prioridad y estado  
-3. (Opcional) Asigna la tarea a otro usuario  
-4. Se da seguimiento al progreso  
-5. Se marca como completada  
+## 🧩 Problema
+
+Los estudiantes presentan dificultades para gestionar sus tareas académicas, lo que provoca:
+
+- Falta de organización  
+- Incumplimiento de fechas  
+- Bajo rendimiento académico  
+
+💡 **Solución:** Diseñar un sistema sencillo de gestión de tareas.
+
+---
+
+## ⚙️ Funcionalidades
+
+| # | Funcionalidad        | Descripción |
+|--|----------------------|------------|
+| 1 | Crear tareas        | Agregar nombre, descripción y fecha límite |
+| 2 | Prioridad           | Alta, Media, Baja |
+| 3 | Completar tareas    | Marcar tareas como finalizadas |
+| 4 | Visualización       | Lista de tareas pendientes y completadas |
+| 5 | Filtrado (opcional) | Clasificación por prioridad |
+
+---
+
+## 👤 Usuario
+
+- 🎓 **Estudiante**
+  - Administra sus tareas  
+  - Da seguimiento a su progreso  
+
+---
+
+## 🔄 Flujo del Sistema
+
+```mermaid
+flowchart TD
+A[Inicio] --> B[Crear tarea]
+B --> C[Asignar prioridad]
+C --> D[Guardar tarea]
+D --> E[Ver lista]
+E --> F[Completar tarea]
+F --> G[Fin]
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
