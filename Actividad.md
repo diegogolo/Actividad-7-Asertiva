@@ -53,7 +53,7 @@ Los estudiantes presentan dificultades para gestionar sus tareas académicas, lo
   - Da seguimiento a su progreso  
 
 ---
-
+##  Flujo del Sistema
 ```mermaid
 flowchart TD
 A(Inicio) --> B(Crear tarea)
