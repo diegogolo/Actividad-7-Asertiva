@@ -6,23 +6,23 @@
 
 ---
 
-## 👥 Integrantes y Roles
+## Integrantes y Roles
 
 | Rol            | Nombre              | Responsabilidad |
 |----------------|-------------------|----------------|
-| 📝 Notetaker   | Diego Gómez        | Registro de información y conclusiones |
-| 🎯 Moderador   | Luis Contreras     | Coordinación del equipo |
-| ⏱️ Timekeeper  | Alexander Loch     | Control del tiempo |
+|   Notetaker   | Diego Gómez        | Registro de información y conclusiones |
+|   Moderador   | Luis Contreras     | Coordinación del equipo |
+|   Timekeeper  | Alexander Loch     | Control del tiempo |
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 Desarrollar una propuesta básica para organizar tareas académicas, permitiendo registrar actividades, asignar prioridades y visualizar el progreso.
 
 ---
 
-## 🧩 Problema
+## Problema
 
 Los estudiantes presentan dificultades para gestionar sus tareas académicas, lo que provoca:
 
@@ -30,11 +30,11 @@ Los estudiantes presentan dificultades para gestionar sus tareas académicas, lo
 - Incumplimiento de fechas  
 - Bajo rendimiento académico  
 
-💡 **Solución:** Diseñar un sistema sencillo de gestión de tareas.
+ **Solución:** Diseñar un sistema sencillo de gestión de tareas.
 
 ---
 
-## ⚙️ Funcionalidades
+##  Funcionalidades
 
 | # | Funcionalidad        | Descripción |
 |--|----------------------|------------|
@@ -46,9 +46,9 @@ Los estudiantes presentan dificultades para gestionar sus tareas académicas, lo
 
 ---
 
-## 👤 Usuario
+##  Usuario
 
-- 🎓 **Estudiante**
+-  **Estudiante**
   - Administra sus tareas  
   - Da seguimiento a su progreso  
 
